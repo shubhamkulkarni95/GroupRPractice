@@ -5433,3 +5433,5 @@ org.apache.maven.project.ProjectBuildingException: Some problems were encountere
 2022-06-26 12:44:37,684 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Acceleration_Soft\WorkSpace\Jan9_Selenium\src\main\resources
 2022-06-26 12:44:37,685 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-06-26 12:44:37,685 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Acceleration_Soft\WorkSpace\Jan9_Selenium\src\test\resources
+2022-06-27 09:59:40,584 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-06-27 09:59:41,134 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
