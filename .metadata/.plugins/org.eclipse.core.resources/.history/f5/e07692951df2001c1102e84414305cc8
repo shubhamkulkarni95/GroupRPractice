@@ -1,0 +1,21 @@
+package org.collectionPractice;
+
+import java.util.HashSet;
+
+public class ArrayToArrayList {
+
+	public static void main(String[] args) {
+		System.out.println("*******Program Starts********");
+		HashSet<String> s1=new HashSet<String>();
+		s1.add("Pune");
+		s1.add("Mumbai");
+		s1.add("Aurangabad");
+		s1.add("Akola");
+		s1.add("Amravati");
+		System.out.println(s1);
+		System.out.println("*******Program Ends********");
+		
+		
+	}
+
+}

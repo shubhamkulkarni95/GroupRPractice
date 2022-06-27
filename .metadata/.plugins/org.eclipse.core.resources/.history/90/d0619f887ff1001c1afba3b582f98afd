@@ -1,0 +1,16 @@
+package org.collectionPractice;
+
+import java.util.ArrayList;
+
+public class CollectionPracticeEx1 {
+
+	public static void main(String[] args) {
+		ArrayList ar=new ArrayList();   //Declaration
+		ar.add(new Integer(10));		//Add object of non-primitive data type
+		ar.add(new CollectionPracticeEx1()); //Add object of class.
+		ar.add(new String("Mumbai"));)
+		
+		
+	}
+
+}

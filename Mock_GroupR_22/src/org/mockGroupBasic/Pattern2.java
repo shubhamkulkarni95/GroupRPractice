@@ -1,0 +1,21 @@
+package org.mockGroupBasic;
+
+public class Pattern2 {
+
+	public static void main(String[] args) {
+		for(int i=1;i<=5;i++) {
+			for(int j=5;j>=i;j--) {
+				System.out.print(" ");
+			}
+			for(int s=i;s>=1;s--) {
+				System.out.print(s);
+			}
+			for(int k=2;k<=i;k++) {
+				System.out.print(k);
+	}
+			System.out.println();
+		}
+
+	}
+
+}

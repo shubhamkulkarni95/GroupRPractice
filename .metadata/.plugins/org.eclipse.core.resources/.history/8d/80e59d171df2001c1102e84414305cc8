@@ -1,0 +1,12 @@
+package org.collectionPractice;
+
+import java.util.ArrayList;
+
+public class ArrayToArrayList {
+
+	public static void main(String[] args) {
+		ArrayList ar1=new ArrayList();
+		
+	}
+
+}

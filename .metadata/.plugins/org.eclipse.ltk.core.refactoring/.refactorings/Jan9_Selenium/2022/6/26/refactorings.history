@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Jan9_Selenium/Screenshot&apos; to &apos;Screenshots&apos;" description="Rename resource &apos;Screenshot&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Screenshot" name="Screenshots" stamp="1656152521979" updateReferences="true"/>
+</session>

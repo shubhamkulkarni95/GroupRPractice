@@ -1,0 +1,17 @@
+package or.dropDownHandling;
+
+import org.openqa.selenium.WebDriver;
+import org.utilities.BaseUtility;
+
+public class Ex1 {
+
+	public static void main(String[] args) {
+		System.out.println("*******Program Starts*********");
+		
+		BaseUtility bu=new BaseUtility();
+		WebDriver driver=bu.startUp("ch","https://demoqa.com/select-menu");
+		
+		System.out.println("*******Program Ends*********");
+	}
+
+}

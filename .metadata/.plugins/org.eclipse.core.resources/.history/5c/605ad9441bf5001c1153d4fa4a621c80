@@ -1,0 +1,29 @@
+package org.testNgEx3;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.Test;
+import org.utilities.BaseUtility;
+
+public class ParallelEx2 {
+	 BaseUtility bu=new BaseUtility();
+	 String url="http://localhost:90/login.do";
+	 WebDriver driver;
+	@Test
+	public void createCustCH() {
+		WebDriver driver=bu.startUp("ch",url);
+		driver.findElement(By.id("username")).sendKeys("admin");
+	    driver.findElement(By.xpath("//input[@name='pwd']")).sendKeys("manager");
+	    driver.findElement(By.id("loginButton")).click();
+	}
+	 @Test
+	 public void createCustEdege() {
+		 WebDriver driver=bu.startUp("ch",url);
+			driver.findElement(By.id("username")).sendKeys("admin");
+		    driver.findElement(By.xpath("//input[@name='pwd']")).sendKeys("manager");
+		    driver.findElement(By.id("loginButton")).click();
+
+	   }
+	 }
+
+

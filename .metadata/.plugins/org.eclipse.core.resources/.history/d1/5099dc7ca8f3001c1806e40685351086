@@ -1,0 +1,10 @@
+package org.basicOperator;
+
+public class Ex1 {
+	public static void main(String[] args) {
+		int a=65;
+		char ch=(char)a;
+		System.out.println("Character : "+ch);
+	}
+
+}

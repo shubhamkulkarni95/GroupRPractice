@@ -1,0 +1,28 @@
+package org.actionClass;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.utilities.BaseUtility;
+
+public class DragAndDropByUsingClickHoldAndRelease {
+
+	public static void main(String[] args) {
+		System.out.println("***Program Starts***");
+		
+		BaseUtility bu=new BaseUtility();
+		String url="https://demoqa.com/droppable";
+		WebDriver driver=bu.startUp("ch", url);
+		
+		Actions act=new Actions(driver);
+		WebElement Dragbtn1=driver.findElement(By.id("draggable"));
+		WebElement Dragbtn2=driver.findElement(By.id("droppable"));
+		act.clickAndHold(Dragbtn1).moveToElement(Dragbtn2).release().build().perform();
+	//	act.dragAndDrop(Dragbtn1, Dragbtn2);
+		
+		System.out.println("***Program Ends***");
+
+	}
+
+}
